@@ -509,3 +509,19 @@ a {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+@media screen and (min-width: 992px) {
+  .featured-center {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .featured-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .product .img {
+    height: 13rem;
+  }
+}
